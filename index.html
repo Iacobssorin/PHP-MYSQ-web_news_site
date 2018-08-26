@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<title>PHP5 TEST</title>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link href="./css/reset.css" type="text/css" rel="stylesheet">
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+<body>
+<header>
+	<h2 id="header-title"><span>PHP5 Test </span></h2>
+	<h3 align="center" ><a href="index.php?page=frontpage">Acasa</a></h3>;
+</header>
+<div id="main">
+	<div id="message">
+		<div id="inbox">
+            <div id="inbox-content">
+                <ul id="message-ul"></ul>
+			</div>
+		</div>
+		<div id="post">
+			<form id = "msgform">
+				<label class="name" for="name">Nume:</label>
+				<input id="name" type='text' value="" /></br>
+				<label class="message-content" for="message-content">Mesaj:</label>
+				<textarea id="message-content" placeholder="Enter the Message"></textarea>
+			</form>
+			<button type="submit" id='submit'>Post</button>
+		</div>
+	</div>
+</div>
+<script src="./js/index.js"></script>
+</body>
+</html>
+
+
+
